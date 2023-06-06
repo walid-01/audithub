@@ -1,0 +1,40 @@
+.project-content {
+    width: 80vw;
+    padding: 30px 2.5vw;
+}
+
+.project-content > h1 {
+    margin-bottom: 40px;
+}
+
+.project-detail-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.project-detail-item {
+    border: 1px solid black;
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-member {
+    border: 1px solid black;
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+    justify-content: space-between;    
+}

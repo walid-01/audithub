@@ -1,0 +1,28 @@
+.company-content {
+    width: 60vw;
+    padding: 30px 2.5vw;
+    margin: 0 auto;
+}
+
+.company-project > h2 {
+    margin: 20px auto;
+}
+
+.company-grp {
+    display: flex;
+    margin-bottom: 75px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-card, .team-card {
+    border: 1px black solid;
+    width: 25%;
+    padding: 20px;
+}
+
+.company-card-img > img {
+    width: 100%;
+    margin: auto;
+}

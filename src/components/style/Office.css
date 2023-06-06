@@ -1,0 +1,96 @@
+.office {
+    display: flex;
+}
+
+.office-content {
+    width: 70vw;
+    padding: 0 5vw;
+    margin: 0 auto;
+}
+
+.content-title {
+    font-size: 48px;
+    text-align: center;
+}
+
+.office-content {
+    padding: 30px 2.5vw;
+}
+
+.office-content > h1 {
+    margin-bottom: 10px;
+}
+
+.mission-card, .messages-card {
+    border: 1px solid black;
+    border-radius: 2.5px;
+    padding: 15px 20px;
+}
+
+.mission {
+    border: 1px black solid;
+    border-radius: 2.5px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+.card-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 60%;
+    margin: auto;
+}
+
+.calendar-img, .checklist {
+    width: 350px;
+}
+
+.checklist {
+    margin-top: 20px;
+}
+
+.checklist-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5px auto;
+    font-size: 22px;
+}
+
+.checklist-item > input, .calendar-img {
+    cursor: pointer;
+}
+
+.card-border {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.links-card {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.links-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    width: 250px;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: underline;
+}

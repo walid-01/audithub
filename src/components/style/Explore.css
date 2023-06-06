@@ -1,0 +1,35 @@
+.explore-content {
+    width: 70vw;
+    padding: 0 5vw;
+    margin: 50px auto;
+}
+
+.explore-header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    height: 5vh;
+
+}
+
+.experts-row {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.expert-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.expert-card-img > img{
+    width: 300px;
+}

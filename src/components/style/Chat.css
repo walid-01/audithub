@@ -1,0 +1,9 @@
+.chat {
+    display: flex;
+}
+
+.chat-content {
+    width: 70vw;
+    padding: 0 5vw;
+    margin: 0 auto;
+}

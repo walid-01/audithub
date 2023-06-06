@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item-link:hover {
+    text-decoration: underline;
+}
