@@ -20,24 +20,24 @@ const StartupProfile = () => {
               <p>Company name</p>
             </div>
             <div className="info-tuple">
-              <h4>Info: </h4>
-              <p>Information</p>
+              <h4>Full Name: </h4>
+              <p>Full Name</p>
             </div>
             <div className="info-tuple">
-              <h4>Info: </h4>
-              <p>Information</p>
+              <h4>Company Email: </h4>
+              <p>Email</p>
             </div>
             <div className="info-tuple">
-              <h4>Info: </h4>
-              <p>Information</p>
+              <h4>Industry: </h4>
+              <p>Industry</p>
             </div>
             <div className="info-tuple">
-              <h4>Info: </h4>
-              <p>Information</p>
+              <h4>Company Type: </h4>
+              <p>Type</p>
             </div>
             <div className="info-tuple">
-              <h4>Info: </h4>
-              <p>Information</p>
+              <h4>Website: </h4>
+              <p>Website</p>
             </div>
           </div>
         </div>

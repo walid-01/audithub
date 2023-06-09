@@ -8,7 +8,7 @@
     display: flex;
     width: 90%;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     justify-content: space-between;
     height: 5vh;
 
@@ -32,4 +32,23 @@
 
 .expert-card-img > img{
     width: 300px;
+}
+
+.explore-filters {
+    width: 66%;
+    margin: auto;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.filter-container > div {
+    width: 120px;
+}
+
+.filter-container > h3 {
+    width: 250px;
 }

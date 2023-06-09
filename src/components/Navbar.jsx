@@ -11,13 +11,13 @@ const Navbar = () => {
         <Link to="/" className="nav-item-link black-link">
           <p className="nav-item">Home</p>
         </Link>
-        <Link to="/" className="nav-item-link black-link">
+        <Link to="/faq" className="nav-item-link black-link">
           <p className="nav-item">FAQ</p>
         </Link>
-        <Link to="/" className="nav-item-link black-link">
+        <Link to="/blog" className="nav-item-link black-link">
           <p className="nav-item">Blog</p>
         </Link>
-        <Link to="/" className="nav-item-link black-link">
+        <Link to="/pricing" className="nav-item-link black-link">
           <p className="nav-item">Pricing</p>
         </Link>
         <Link to="/signin" className="nav-item-link black-link">

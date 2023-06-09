@@ -22,6 +22,11 @@ const ExpertSidebar = () => {
           <Link to="/expert/chat">Chat</Link>
         </li>
       </ul>
+      <ul>
+        <li>
+          <Link to="/">Home Page</Link>
+        </li>
+      </ul>
     </div>
   );
 };

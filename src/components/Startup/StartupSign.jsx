@@ -11,17 +11,17 @@ const StartupSign = () => {
           <input type="email" placeholder="Email" className="input1" />
           <input type="password" placeholder="Password" className="input1" />
 
-          <Link to="/startup/search">
+          <Link to="/startup/profile">
             <button className="btn1">Log In</button>
           </Link>
         </div>
 
-        <div class="vl"></div>
+        <div class="vl" />
 
         <div className="choice">
           <h3>Sign Up</h3>
           <input type="text" placeholder="Full Name" className="input1" />
-          <input type="text" placeholder="Startup Name" className="input1" />
+          <input type="text" placeholder="Company Name" className="input1" />
           <input type="email" placeholder="Email" className="input1" />
           <input type="password" placeholder="Password" className="input1" />
           <input
@@ -30,7 +30,7 @@ const StartupSign = () => {
             className="input1"
           />
 
-          <Link to="/startup/search">
+          <Link to="/startup/fill-personal-information">
             <button className="btn2">Sign Up</button>
           </Link>
         </div>

@@ -1,0 +1,24 @@
+.payment-content {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-card {
+    border: 1px black solid;
+    padding: 20px;
+    width: 30vw;
+}
+
+.payment-card p {
+    font-size: 24px;
+}
+
+.payment-card-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

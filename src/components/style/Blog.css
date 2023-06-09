@@ -1,0 +1,30 @@
+.blog-content {
+    width: 66vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogs {
+    display: flex;
+    gap: 20px;
+}
+
+.blog {
+    padding: 150px;
+    border: 1px solid black;
+}
+
+.latest-blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latest-blogs-blog {
+    margin-bottom: 30px;
+    width: 80%;
+    border: 1px solid black;
+    padding: 30px;
+}

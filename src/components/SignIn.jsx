@@ -24,6 +24,9 @@ const SignIn = () => {
           </Link>
         </div>
       </div>
+      <div className="copyright-container">
+        <p>Copyright © 2023 AuditHub. All rights reserved.</p>
+      </div>
     </div>
   );
 };

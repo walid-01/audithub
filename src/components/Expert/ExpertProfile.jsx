@@ -36,8 +36,19 @@ const ExpertProfile = () => {
               <p>Address</p>
             </div>
             <div className="info-tuple">
-              <h4>Info: </h4>
-              <p>Information</p>
+              <h4>Areas of expertise: </h4>
+              <ul style={{ listStyle: "none" }}>
+                <li>- Area 1</li>
+                <li>- Area 2</li>
+                <li>- Area 3</li>
+              </ul>
+            </div>
+            <div className="info-tuple">
+              <h4>Provided Services: </h4>
+              <ul style={{ listStyle: "none" }}>
+                <li>- Service 1</li>
+                <li>- Service 2</li>
+              </ul>
             </div>
           </div>
         </div>

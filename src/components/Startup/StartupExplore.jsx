@@ -13,6 +13,46 @@ const StartupExplore = () => {
             <Link to="/startup/search">Search</Link>
           </button>
         </div>
+        <div className="explore-filters">
+          <div className="filter-container">
+            <h3>Filter by areas of expertises:</h3>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Option 1</label>
+            </div>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Option 2</label>
+            </div>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Option 3</label>
+            </div>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Other</label>
+            </div>
+          </div>
+          <div className="filter-container">
+            <h3>Filter by services:</h3>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Service 1</label>
+            </div>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Service 2</label>
+            </div>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Service 3</label>
+            </div>
+            <div className="checkbox-container">
+              <input type="checkbox" />
+              <label> Other</label>
+            </div>
+          </div>
+        </div>
         <div className="experts">
           <div className="experts-row">
             <div className="expert-card">
