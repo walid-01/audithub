@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const StartupSidebar = () => {
   return (
     <div className="sidebar">
-      <h3>Startup Menu</h3>
+      <h3>Company Menu</h3>
       <ul>
         <li>
           <Link to="/startup/company">My Company</Link>

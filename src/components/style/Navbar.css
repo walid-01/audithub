@@ -9,7 +9,7 @@
 .nav-items {
     display: flex;
     flex-direction: row;
-    width: 35vw;
+    width: 30vw;
     align-items: center;
     justify-content: space-between;
 }

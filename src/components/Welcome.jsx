@@ -10,22 +10,25 @@ const Welcome = () => {
       <div className="welcome-content">
         <div className="welcome-intro">
           <h1 className="title">AuditHub</h1>
-          <h2 className="subtitle">Presentation of the platform</h2>
+          <h2 className="subtitle">Empowering Success through Expertise.</h2>
         </div>
         <div className="welcome-about">
           <h1>About Us</h1>
           <div className="about-content">
             <div className="about-card">
               <div className="about-card-text">
-                <h3>Presentation</h3>
+                <h3>Presentation of the company</h3>
+                <p>&quot;Unlock the Power of seamless collaboration&quot;.</p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam, esse itaque minima reprehenderit labore soluta
-                  provident mollitia maxime blanditiis quas voluptatibus
-                  perferendis animi temporibus iure eaque dicta aliquam. Magni
-                  nobis voluptatem hic alias doloremque, consectetur corrupti
-                  aliquid quia, esse dolores dolorum non fugit? Culpa saepe
-                  cumque repellat, earum illum aut?
+                  With our platform, professionals can effortlessly collaborate,
+                  communicate, and share information with their clients, team
+                  members, and partners. We provide a seamless and intuitive
+                  interface that facilitates real-time collaboration, allowing
+                  for efficient workflow management, document sharing, task
+                  assignment, and more. By unlocking the power of seamless
+                  collaboration, AuditHub empowers accounting professionals to
+                  work together effectively, streamline processes, and achieve
+                  exceptional results.
                 </p>
               </div>
               <img
@@ -41,44 +44,47 @@ const Welcome = () => {
               <div className="about-card-text">
                 <h3>Our Mission</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Debitis impedit facilis adipisci corrupti perspiciatis quo
-                  quaerat, in nulla deleniti vero? Labore velit itaque nam
-                  cumque sequi a quibusdam blanditiis laboriosam saepe? Enim
-                  inventore error magni.
+                  &quot;Building Bridges for collaboration and innovation&quot;.
+                </p>
+                <p>
+                  Our platform serves as a bridge that connects accounting
+                  professionals, startups, and small companies, enabling them to
+                  collaborate, exchange ideas, and drive innovation together.
+                </p>
+                <p>
+                  By building bridges for collaboration, AuditHub encourages the
+                  exchange of expertise, promotes a culture of innovation, and
+                  empowers accounting professionals and businesses to achieve
+                  their full potential. Together, we can create a future of
+                  collaborative growth and transformative innovation in the
+                  world of accounting.
                 </p>
               </div>
             </div>
             <div className="about-card">
               <div className="about-card-text">
-                <h3>Services</h3>
+                <h3>Our services</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
-                  aliquid possimus ipsam vero nisi quaerat similique neque hic
-                  quam, et porro veritatis corrupti minus maiores, sit
-                  perspiciatis id, provident voluptas ratione praesentium. Cum
-                  velit dolorum aut voluptates iusto, ipsum beatae?
+                  At AuditHub, we are dedicated to providing a comprehensive
+                  platform that caters to the needs of both auditors, accounting
+                  experts, advisors, and startups, small, and new businesses.
+                  Our service offers a seamless and efficient solution that
+                  enables auditors and accounting experts to streamline their
+                  processes, access powerful tools for auditing, accounting, and
+                  financial analysis, and collaborate seamlessly with their
+                  clients. For startups, small, and new businesses, we offer a
+                  range of services that help them effectively manage their
+                  financial operations, gain valuable insights, and make
+                  informed decisions to drive growth and success. With AuditHub,
+                  professionals and businesses alike can leverage our expertise
+                  and cutting-edge technology to optimize their financial
+                  management and unlock their full potential.
                 </p>
               </div>
               <img
                 src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
                 alt=""
               />
-            </div>
-            <div className="about-card">
-              <img
-                src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-                alt=""
-              />
-              <div className="about-card-text">
-                <h3>Our Team</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Iure, unde non consequuntur maxime delectus tenetur veritatis
-                  accusantium soluta aspernatur nihil mollitia suscipit quia nam
-                  hic laudantium eius illo, eveniet minus.
-                </p>
-              </div>
             </div>
           </div>
         </div>

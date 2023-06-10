@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const StartupSign = () => {
   return (
     <div className="sign">
-      <h1 className="title">Continue as a Startup</h1>
+      <h1 className="title">Continue as a Company</h1>
 
       <div className="choices">
         <div className="choice">

@@ -20,9 +20,6 @@ const Navbar = () => {
         <Link to="/pricing" className="nav-item-link black-link">
           <p className="nav-item">Pricing</p>
         </Link>
-        <Link to="/about" className="nav-item-link black-link">
-          <p className="nav-item">About Us</p>
-        </Link>
         <Link to="/signin" className="nav-item-link black-link">
           <p className="nav-item">Sign Up / Login</p>
         </Link>

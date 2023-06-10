@@ -13,12 +13,12 @@ const ExpertSign = () => {
             <input type="email" placeholder="Email" className="input1" />
             <input type="password" placeholder="Password" className="input1" />
 
-            <Link to="/expert/office">
+            <Link to="/expert/notifications">
               <button className="btn1">Log In</button>
             </Link>
           </div>
 
-          <div class="vl"></div>
+          <div class="vl" />
 
           <div className="choice">
             <h3>Sign Up</h3>

@@ -28,7 +28,6 @@ import FAQ from "./components/FAQ";
 import Blog from "./components/Blog";
 import Payment from "./components/Payment";
 import PaymentMethod from "./components/PaymentMethod";
-import About from "./components/About";
 import StartupChat1 from "./components/Startup/StartupChat1";
 import ExpertChat1 from "./components/Expert/ExpertChat1";
 import StartupExpert from "./components/Startup/StartupExpert";
@@ -47,7 +46,6 @@ function App() {
           <Route path="/pricing" exact element={<Pricing />} />
           <Route path="/payment" exact element={<Payment />} />
           <Route path="/payment-method" exact element={<PaymentMethod />} />
-          <Route path="/about" exact element={<About />} />
 
           {/* Startup */}
           <Route path="/startup/sign" exact element={<StartupSign />} />

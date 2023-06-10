@@ -8,17 +8,14 @@ const SignIn = () => {
       <Navbar />
       <div className="choices">
         <div className="choice">
-          <h3>For startups (Change this)</h3>
           <Link to="/startup/sign">
-            <button className="btn1">Continue as a Startup</button>
+            <button className="btn1">Continue as a Company</button>
           </Link>
         </div>
 
         <div class="vl"></div>
 
         <div className="choice">
-          <h3>For experts (Change this)</h3>
-
           <Link to="/expert/sign">
             <button className="btn2">Continue as an Expert</button>
           </Link>

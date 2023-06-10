@@ -1,5 +1,6 @@
 import React from "react";
 import ExpertSidebar from "./ExpertSidebar";
+import { Link } from "react-router-dom";
 
 const ExpertChat1 = () => {
   return (
@@ -18,6 +19,9 @@ const ExpertChat1 = () => {
             <button className="send-btn">Send</button>
           </div>
         </div>
+        <Link to="/expert/missions" style={{ marginTop: "20px" }}>
+          <button className="btn1">Request Contract</button>
+        </Link>
       </div>
     </div>
   );

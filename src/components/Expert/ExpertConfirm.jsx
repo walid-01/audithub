@@ -13,7 +13,7 @@ const ExpertConfirm = () => {
         style={{ marginBottom: "10px", padding: "2.5px" }}
         placeholder="Enter the code here"
       />
-      <Link to="/expert/office">
+      <Link to="/expert/notifications">
         <button className="btn1">Confirm</button>
       </Link>
     </div>
