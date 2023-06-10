@@ -1,5 +1,6 @@
 import React from "react";
 import StartupSidebar from "./StartupSidebar";
+import { Link } from "react-router-dom";
 
 const StartupSearchResults = () => {
   return (
@@ -7,8 +8,8 @@ const StartupSearchResults = () => {
       <StartupSidebar />
       <div className="explore-content">
         <h1 style={{ marginBottom: "50px" }}>Search Results</h1>
-        <div className="experts">
-          <div className="experts-row">
+        <div className="experts-row">
+          <Link to="/startup/explore/expert" className="black-link">
             <div className="expert-card">
               <div className="expert-card-img">
                 <img
@@ -20,6 +21,8 @@ const StartupSearchResults = () => {
               <h3>Prosfession</h3>
               <h3>Address</h3>
             </div>
+          </Link>
+          <Link to="/startup/explore/expert" className="black-link">
             <div className="expert-card">
               <div className="expert-card-img">
                 <img
@@ -31,6 +34,8 @@ const StartupSearchResults = () => {
               <h3>Prosfession</h3>
               <h3>Address</h3>
             </div>
+          </Link>
+          <Link to="/startup/explore/expert" className="black-link">
             <div className="expert-card">
               <div className="expert-card-img">
                 <img
@@ -42,7 +47,7 @@ const StartupSearchResults = () => {
               <h3>Prosfession</h3>
               <h3>Address</h3>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

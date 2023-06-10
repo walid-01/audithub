@@ -40,6 +40,19 @@ const ExpertMissions = () => {
             </div>
           </Link>
         </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            border: "1px black solid",
+            marginTop: "20px",
+            padding: "20px",
+          }}
+        >
+          <h1 style={{ marginBottom: "20px" }}>Calendar</h1>
+          <img src="https://iili.io/H4ogRu1.png" alt="" />
+        </div>
       </div>
     </div>
   );

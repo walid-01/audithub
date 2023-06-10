@@ -22,3 +22,31 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Startup Payment */
+.pay-content {
+    width: 66vw;
+    margin: 0 auto;
+}
+
+.pay-form {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: auto;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.pay-form > label, .pay-form > input {
+    font-size: 18px;
+}
+
+.pay-form > label {
+    margin-bottom: 7.5px;
+}
+
+.pay-form > input {
+    margin-bottom: 10px;
+    padding: 5px;
+}

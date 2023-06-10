@@ -9,6 +9,7 @@ const FillPersonalInfo = () => {
         <h1 style={{ marginBottom: "20px" }}>Please fill the fields below</h1>
         <input type="text" placeholder="Profession" className="input1" />
         <input type="text" placeholder="Phone Number" className="input1" />
+        <input type="text" placeholder="Expert ID number" className="input1" />
         <input type="text" placeholder="Address" className="input1" />
         <label for="profession" style={{ marginBottom: "10px" }}>
           What is your proffession:{" "}

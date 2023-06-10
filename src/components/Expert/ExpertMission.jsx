@@ -13,8 +13,16 @@ const ExpertMission = () => {
         <div className="mission-item">
           <h1>Client Info</h1>
         </div>
-        <div className="mission-item">
-          <h1>Tools Used</h1>
+        <div className="mission-item mission-item-container">
+          <div className="mission-item2">
+            <h2>Accounting</h2>
+          </div>
+          <div className="mission-item2">
+            <h2>Audit Work</h2>
+          </div>
+          <div className="mission-item2">
+            <h2>Financial Report</h2>
+          </div>
         </div>
       </div>
     </div>

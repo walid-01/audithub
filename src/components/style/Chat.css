@@ -7,3 +7,52 @@
     padding: 0 5vw;
     margin: 0 auto;
 }
+
+/* Chat1 */
+.chat1-content {
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatbox {
+    height: 40vh;
+    width: 100%;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.chat-messages {
+    height: 90%;
+    width: 100%;
+    border: 1px black solid;
+}
+
+.chat-send {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.send-input {
+    width: 79%;
+}
+
+.send-btn {
+    width: 20%;
+}
+
+.send-input, .send-btn {
+    padding: 5px;
+}

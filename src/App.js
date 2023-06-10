@@ -3,12 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Welcome from "./components/Welcome";
 
 import StartupSign from "./components/Startup/StartupSign";
-import StartupSearch from "./components/Startup/StartupSearch";
 import StartupChat from "./components/Startup/StartupChat";
 import StartupProfile from "./components/Startup/StartupProfile";
 import StartupExplore from "./components/Startup/StartupExplore";
 import StartupServices from "./components/Startup/StartupServices";
-import StartupCommunication from "./components/Startup/StartupCommunication";
 
 import ExpertSign from "./components/Expert/ExpertSign";
 import FillPersonalInfo from "./components/Expert/FillPersonalInfo";
@@ -30,12 +28,18 @@ import FAQ from "./components/FAQ";
 import Blog from "./components/Blog";
 import Payment from "./components/Payment";
 import PaymentMethod from "./components/PaymentMethod";
+import About from "./components/About";
+import StartupChat1 from "./components/Startup/StartupChat1";
+import ExpertChat1 from "./components/Expert/ExpertChat1";
+import StartupExpert from "./components/Startup/StartupExpert";
+import StartupPay from "./components/Startup/StartupPay";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
+          {/* General */}
           <Route path="/" exact element={<Welcome />} />
           <Route path="/signin" exact element={<SignIn />} />
           <Route path="/faq" exact element={<FAQ />} />
@@ -43,9 +47,10 @@ function App() {
           <Route path="/pricing" exact element={<Pricing />} />
           <Route path="/payment" exact element={<Payment />} />
           <Route path="/payment-method" exact element={<PaymentMethod />} />
+          <Route path="/about" exact element={<About />} />
 
+          {/* Startup */}
           <Route path="/startup/sign" exact element={<StartupSign />} />
-          <Route path="/startup/search" exact element={<StartupSearch />} />
           <Route path="/startup/chat" exact element={<StartupChat />} />
           <Route path="/startup/profile" exact element={<StartupProfile />} />
           <Route path="/startup/company" exact element={<StartupCompany />} />
@@ -56,12 +61,7 @@ function App() {
             element={<StartupServices />}
           />
           <Route
-            path="/startup/communication"
-            exact
-            element={<StartupCommunication />}
-          />
-          <Route
-            path="/expert/search-result"
+            path="/startup/search-result"
             exact
             element={<StartupSearchResults />}
           />
@@ -76,7 +76,19 @@ function App() {
             element={<FillPersonalInfoStartup />}
           />
           <Route path="/startup/confirm" exact element={<StartupConfirm />} />
+          <Route path="/startup/chat/chat-1" exact element={<StartupChat1 />} />
+          <Route
+            path="/startup/explore/expert"
+            exact
+            element={<StartupExpert />}
+          />
+          <Route
+            path="/startup/chat/chat-1/pay"
+            exact
+            element={<StartupPay />}
+          />
 
+          {/* Expert */}
           <Route path="/expert/sign" exact element={<ExpertSign />} />
           <Route
             path="/expert/fill-personal-information"
@@ -98,6 +110,7 @@ function App() {
             element={<ExpertMission />}
           />
           <Route path="/expert/confirm" exact element={<ExpertConfirm />} />
+          <Route path="/expert/chat/chat-1" exact element={<ExpertChat1 />} />
         </Routes>
       </div>
     </Router>

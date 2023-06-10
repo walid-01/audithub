@@ -13,7 +13,7 @@ const StartupConfirm = () => {
         style={{ marginBottom: "10px", padding: "2.5px" }}
         placeholder="Enter the code here"
       />
-      <Link to="/startup/profile">
+      <Link to="/startup/company">
         <button className="btn1">Confirm</button>
       </Link>
     </div>

@@ -7,16 +7,13 @@ const StartupSidebar = () => {
       <h3>Startup Menu</h3>
       <ul>
         <li>
+          <Link to="/startup/company">My Company</Link>
+        </li>
+        <li>
           <Link to="/startup/profile">My Profile</Link>
         </li>
         <li>
-          <Link to="/startup/search">Search for an Expert</Link>
-        </li>
-        <li>
           <Link to="/startup/chat">Chat</Link>
-        </li>
-        <li>
-          <Link to="/startup/company">My Company</Link>
         </li>
         <li>
           <Link to="/startup/explore">Explore</Link>
@@ -25,9 +22,6 @@ const StartupSidebar = () => {
           <Link to="/startup/services-and-contracts">
             Services And Contracts
           </Link>
-        </li>
-        <li>
-          <Link to="/startup/communication">Communication Space</Link>
         </li>
       </ul>
       <ul>

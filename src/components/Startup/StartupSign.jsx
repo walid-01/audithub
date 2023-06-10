@@ -11,7 +11,7 @@ const StartupSign = () => {
           <input type="email" placeholder="Email" className="input1" />
           <input type="password" placeholder="Password" className="input1" />
 
-          <Link to="/startup/profile">
+          <Link to="/startup/company">
             <button className="btn1">Log In</button>
           </Link>
         </div>
