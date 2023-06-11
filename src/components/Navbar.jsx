@@ -5,7 +5,13 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo-container">
-        <h1>AuditHub</h1>
+        <Link to="/">
+          <img
+            src="https://yourimageshare.com/ib/SK7J1jbfut.webp"
+            alt=""
+            style={{ maxHeight: "50px" }}
+          />
+        </Link>
       </div>
       <div className="nav-items">
         <Link to="/" className="nav-item-link black-link">

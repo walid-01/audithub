@@ -23,6 +23,9 @@ const StartupSidebar = () => {
             Services And Contracts
           </Link>
         </li>
+        <li>
+          <Link to="/startup/tools">Tools</Link>
+        </li>
       </ul>
       <ul>
         <li>

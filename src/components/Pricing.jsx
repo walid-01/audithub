@@ -22,7 +22,7 @@ const Pricing = () => {
             <p>
               <b>Price: </b> Free
             </p>
-            <Link to="/payment">
+            <Link to="/startup/tools">
               <button className="btn2 offer-btn">Continue</button>
             </Link>
           </div>
@@ -36,7 +36,7 @@ const Pricing = () => {
             <p>
               <b>Price: </b> 35.000DZD / Annual
             </p>
-            <Link to="/payment">
+            <Link to="/startup/payment">
               <button className="btn1 offer-btn">BUY</button>
             </Link>
           </div>
@@ -51,7 +51,7 @@ const Pricing = () => {
             <p>
               <b>Price: </b> 70.000DZD / Annual
             </p>
-            <Link to="/payment">
+            <Link to="/startup/payment">
               <button className="btn1 offer-btn">BUY</button>
             </Link>
           </div>
@@ -70,7 +70,7 @@ const Pricing = () => {
             <p>
               <b>Price: </b> Free
             </p>
-            <Link to="/payment">
+            <Link to="/expert/tools">
               <button className="btn2 offer-btn">Continue</button>
             </Link>
           </div>
@@ -84,7 +84,7 @@ const Pricing = () => {
             <p>
               <b>Price: </b> 35.000DZD / Annual
             </p>
-            <Link to="/payment">
+            <Link to="/expert/payment">
               <button className="btn1 offer-btn">BUY</button>
             </Link>
           </div>
@@ -99,15 +99,15 @@ const Pricing = () => {
             <p>
               <b>Price: </b> 70.000DZD / Annual
             </p>
-            <Link to="/payment">
+            <Link to="/expert/payment">
               <button className="btn1 offer-btn">BUY</button>
             </Link>
           </div>
         </div>
       </div>
       <div className="copyright-container">
-          <p>Copyright © 2023 AuditHub. All rights reserved.</p>
-        </div>
+        <p>Copyright © 2023 AuditHub. All rights reserved.</p>
+      </div>
     </div>
   );
 };

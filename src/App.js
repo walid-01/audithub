@@ -32,6 +32,12 @@ import StartupChat1 from "./components/Startup/StartupChat1";
 import ExpertChat1 from "./components/Expert/ExpertChat1";
 import StartupExpert from "./components/Startup/StartupExpert";
 import StartupPay from "./components/Startup/StartupPay";
+import StartupPaymentMethod from "./components/Startup/StartupPaymentMethod";
+import ExpertPaymentMethod from "./components/Expert/ExpertPaymentMethod";
+import StartupTools from "./components/Startup/StartupTools";
+import ExpertTools from "./components/Expert/ExpertTools";
+import StartupPayment from "./components/Startup/StartupPayment";
+import ExpertPayment from "./components/Expert/ExpertPayment";
 
 function App() {
   return (
@@ -85,6 +91,13 @@ function App() {
             exact
             element={<StartupPay />}
           />
+          <Route path="/startup/payment" exact element={<StartupPayment />} />
+          <Route
+            path="/startup/payment-method"
+            exact
+            element={<StartupPaymentMethod />}
+          />
+          <Route path="/startup/tools" exact element={<StartupTools />} />
 
           {/* Expert */}
           <Route path="/expert/sign" exact element={<ExpertSign />} />
@@ -109,6 +122,13 @@ function App() {
           />
           <Route path="/expert/confirm" exact element={<ExpertConfirm />} />
           <Route path="/expert/chat/chat-1" exact element={<ExpertChat1 />} />
+          <Route path="/expert/payment" exact element={<ExpertPayment />} />
+          <Route
+            path="/expert/payment-method"
+            exact
+            element={<ExpertPaymentMethod />}
+          />
+          <Route path="/expert/tools" exact element={<ExpertTools />} />
         </Routes>
       </div>
     </Router>

@@ -21,6 +21,9 @@ const ExpertSidebar = () => {
         <li>
           <Link to="/expert/chat">Chat</Link>
         </li>
+        <li>
+          <Link to="/expert/tools">Tools</Link>
+        </li>
       </ul>
       <ul>
         <li>
