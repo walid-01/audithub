@@ -8,7 +8,11 @@ const Welcome = () => {
       <Navbar />
       <div className="welcome-content">
         <div className="welcome-intro">
-          <img src="https://yourimageshare.com/ib/ZBJKrSkIo5.webp" alt="" />
+          <img
+            src="https://yourimageshare.com/ib/UNZVcJ9vDh.webp"
+            alt=""
+            className="welcome-intro-img"
+          />
           <div className="intro-text">
             <h1 className="title">AuditHub</h1>
             <h2 className="subtitle">Empowering Success through Expertise</h2>
@@ -21,6 +25,7 @@ const Welcome = () => {
               fontSize: "50px",
               marginBottom: "50px",
             }}
+            className="color-dg"
           >
             About Us
           </h1>

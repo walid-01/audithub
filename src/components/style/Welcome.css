@@ -13,6 +13,8 @@
 
 .welcome-intro > img {
     width: 90%;
+    margin: 70px auto;
+    opacity: 0.9;
 }
 
 .intro-text {
@@ -21,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     height: 30%;
     width: 35%;
     border-radius: 5px;
@@ -50,3 +52,7 @@
     text-align: center;
 }
 
+
+.about-card-text > h3 {
+    color: #1490ac;
+}
