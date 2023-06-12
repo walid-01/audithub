@@ -1,6 +1,5 @@
 import React from "react";
 import "./style/Welcome.css";
-// import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const Welcome = () => {
@@ -9,11 +8,22 @@ const Welcome = () => {
       <Navbar />
       <div className="welcome-content">
         <div className="welcome-intro">
-          <h1 className="title">AuditHub</h1>
-          <h2 className="subtitle">Empowering Success through Expertise.</h2>
+          <img src="https://yourimageshare.com/ib/ZBJKrSkIo5.webp" alt="" />
+          <div className="intro-text">
+            <h1 className="title">AuditHub</h1>
+            <h2 className="subtitle">Empowering Success through Expertise</h2>
+          </div>
         </div>
         <div className="welcome-about">
-          <h1>About Us</h1>
+          <h1
+            style={{
+              textAlign: "center",
+              fontSize: "50px",
+              marginBottom: "50px",
+            }}
+          >
+            About Us
+          </h1>
           <div className="about-content">
             <div className="about-card">
               <div className="about-card-text">
@@ -31,16 +41,10 @@ const Welcome = () => {
                   exceptional results.
                 </p>
               </div>
-              <img
-                src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-                alt=""
-              />
+              <img src="https://yourimageshare.com/ib/dRtUZbop7C.webp" alt="" />
             </div>
             <div className="about-card">
-              <img
-                src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-                alt=""
-              />
+              <img src="https://yourimageshare.com/ib/26NvMJBGc2.webp" alt="" />
               <div className="about-card-text">
                 <h3>Our Mission</h3>
                 <p>
@@ -81,10 +85,7 @@ const Welcome = () => {
                   management and unlock their full potential.
                 </p>
               </div>
-              <img
-                src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-                alt=""
-              />
+              <img src="https://yourimageshare.com/ib/ZXeL6l88JI.webp" alt="" />
             </div>
           </div>
         </div>
