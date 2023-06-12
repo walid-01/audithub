@@ -24,7 +24,7 @@ const Navbar = () => {
           <p className="nav-item">Blog</p>
         </Link>
         <Link to="/pricing" className="nav-item-link black-link">
-          <p className="nav-item">Pricing</p>
+          <p className="nav-item">Services</p>
         </Link>
         <Link to="/signin" className="nav-item-link black-link">
           <p className="nav-item">Sign Up / Login</p>
