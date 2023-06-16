@@ -14,6 +14,7 @@ const StartupExplore = () => {
           <div id="fill-personal-info-form">
             <h1 style={{ marginBottom: "20px" }}>Search for an expert</h1>
             <input type="text" placeholder="Name" className="input1" />
+            <input type="text" placeholder="Location" className="input1" />
             <label for="profession" style={{ marginBottom: "10px" }}>
               Profession:
             </label>
