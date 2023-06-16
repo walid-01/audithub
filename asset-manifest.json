@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/audithub/static/css/main.0ec2a82f.css",
+    "main.js": "/audithub/static/js/main.ef32f590.js",
+    "index.html": "/audithub/index.html",
+    "main.0ec2a82f.css.map": "/audithub/static/css/main.0ec2a82f.css.map",
+    "main.ef32f590.js.map": "/audithub/static/js/main.ef32f590.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ec2a82f.css",
+    "static/js/main.ef32f590.js"
+  ]
+}
